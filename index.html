@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AjudaAiNerd</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"> AjudaAiNerd </div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+            <li> <a href="#" class="active"> Home </a> </li>
+            <li> <a href="#"> Serviços</a> </li>
+            <li> <a href="#"> Contato</a> </li>
+            <li> <a href="#"> Sobre</a> </li>
+            <li> <a href="#">Abe</a> </li>
+        </ul>
+    </nav>
+    <script src="main.js"></script>
+    <div class="carousel">
+        <div class="carousel-inner">
+          <!-- Bloco da imagem 1 -->
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-1"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+            checked="checked"
+          />
+          <div class="carousel-item">
+            <img
+              src="img/tecnico-em-informatica.jpg"
+            />
+          </div>
+          <!-- Bloco da imagem 2 -->
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-2"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="img/tecnico1.png"
+            />
+          </div>
+          <!-- Bloco da imagem 3 -->
+          <input
+            class="carousel-open"
+            type="radio"
+            id="carousel-3"
+            name="carousel"
+            aria-hidden="true"
+            hidden=""
+          />
+          <div class="carousel-item">
+            <img
+              src="img/tecninco-em-informatica-guiatech.webp"
+            />
+          </div>
+      
+          <!-- Pode adicionar mais blocos de imagens aqui -->
+      
+          <!-- Adicionar o prev de acordo com a quantidade de páginas que adicionar -->
+          <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+          <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+          <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+          <!-- Adicionar o next de acordo com a quantidade de páginas que adicionar -->
+          <label for="carousel-1" class="carousel-control next control-3">›</label>
+          <label for="carousel-2" class="carousel-control next control-1">›</label>
+          <label for="carousel-3" class="carousel-control next control-2">›</label>
+          <!-- 
+              Abaixo são os indicadores da página ativa. Se não quiser basta remover. 
+              E caso adicione mais páginas, é preciso adicionar mais itens e alterar 
+              a numeração 
+          -->
+          <ol class="carousel-indicators">
+            <li>
+              <label for="carousel-1" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-2" class="carousel-bullet">•</label>
+            </li>
+            <li>
+              <label for="carousel-3" class="carousel-bullet">•</label>
+            </li>
+          </ol>
+        </div>
+      </div>
+</body>
+</html>
